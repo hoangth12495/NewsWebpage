@@ -13,3 +13,28 @@ ul {
     margin-right: 10px;
     padding: 5px 0;
 }
+
+.head-top ul li span {
+    color: #707070;
+    font-size: 12px;
+}
+
+.head-top ul li span strong {
+    color: #c31e40;
+    /*font-family: GoogleSans-Bold;*/
+    font-size: 14px;
+}
+
+.head-logo {
+    padding: 10px 0;
+    position: relative;
+}
+
+.img-logo img{
+    height: 70px;
+    widows: 165px;
+}
+
+.head-menu {
+    background: #c31e40;
+}
