@@ -1,0 +1,15 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------- head --------*/
+.head-top {
+    background-color: #F9F9F9;
+}
+
+.head-top ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 0;
+}
