@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -37,7 +39,7 @@
       <div class="head-menu">
         <nav class="navbar">
           <div class="container">
-            <div class="navbar-collapse">
+            <div class="navbar-collapse d-flex">
               <ul class="nav navbar-nav flex-row">
                 <li>
                   <a href="home.html" title="Trang chủ">
@@ -47,38 +49,113 @@
                 <li>
                   <a href="news-category.html">Thời sự</a>
                   <ul class="nav-submenu">
-                    <li><a href="news-detail.html" title="Chính trị">Chính trị</a></li>
-                    <li><a href="news-detail.html" title="Kinh tế - Xã hội">Kinh tế - Xã hội</a></li>
+                    <li><a href="news-category.html" title="Chính trị">Chính trị</a></li>
+                    <li><a href="news-category.html" title="Kinh tế - Xã hội">Kinh tế - Xã hội</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="news-category.html">Thời sự</a>
                   <ul class="nav-submenu">
-                    <li><a href="news-detail.html" title="Chính trị">Chính trị</a></li>
-                    <li><a href="news-detail.html" title="Kinh tế - Xã hội">Kinh tế - Xã hội</a></li>
+                    <li><a href="news-category.html" title="Chính trị">Chính trị</a></li>
+                    <li><a href="news-category.html" title="Kinh tế - Xã hội">Kinh tế - Xã hội</a></li>
                   </ul>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
               </ul>
+              <div>
+                <a href="search.html">
+                  <img src="img/search.svg" alt="Tìm kiếm">
+                </a>
+              </div>
             </div>
           </div>
         </nav>
       </div>
     </div>
-    <div class="main"></div>
-    <footer></footer>
+    <div class="main">
+      <div class="main-title">
+        <div class="container">
+          <div class="topthreadlist">
+            <ul class="mt-tag">
+              <li><a href="news-detail.html">Sự kiện</a></li>
+              <li><a href="news-detail.html">Thi sáng tác ca khúc về thầy cô và mái trường</a></li>
+              <li><a href="news-detail.html">Điều ước cho em</a></li>
+              <li><a href="news-detail.html">Sách giáo khoa lớp 1</a></li>
+            </ul>
+            <a href="rss.html" class="rssheader"><img src="img/rss.svg" alt="rssheader"></a>
+            <p class="timetoday">Thứ bảy, 30/1/2021</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="corona-banner" style="margin: 0 0 10px 0;width: 100%!important;cursor: pointer; display: inline-block; position: relative">
+          <iframe style="width: 100%; pointer-events: none; height: 30px;" frameborder="0" src="https://gadgets.dantri.com.vn/corona/mini"></iframe>
+          <span style="position: absolute;right: 15px;top: 8px;font-style: italic;font-size: 10px;">Trích nguồn Dân Trí</span>
+          <div class="box-news">
+            <div class="box-left pull-left">
+              <div class="bn-content">
+                <div class="row">
+                  <div class="col-md-8"></div>
+                  <div class="col-md-4"></div>
+                </div>
+                <div class="box-slide"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <ul class="footer-menu">
+            <li><a href="">Thời sự</a></li>
+            <li><a href="">Giáo dục</a></li>
+            <li><a href="">Pháp luật</a></li>
+            <li><a href="">Bạn đọc</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="fb-detail">
+                <label for="">Báo Giáo dục &amp; Thời đại</label>
+                <p>
+                    Cơ quan chủ quản: BỘ GIÁO DỤC VÀ ĐÀO TẠO.<br>
+                    Số giấy phép 479/GP-BTTTT, cấp ngày 29/10/2020, ISSN 1859-2945.<br>
+                    Tổng Biên tập : Triệu Ngọc Lâm.
+                    <br>
+                    Phó Tổng Biên tập: Dương Thanh Hương
+                    <br>
+                    ® Ghi rõ nguồn “Báo Giáo dục &amp; Thời đại” khi phát hành lại thông tin từ website.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="fb-detail">
+                <label>TRỤ SỞ CHÍNH</label>
+                <p>
+                    Tòa soạn: 15 - Hai Bà Trưng - Q.Hoàn Kiếm - Hà Nội.<br>
+                    Điện thoại:(024) 3.93.69.800
+                    <br>
+                    Email : gdtddientu@gmail.com
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="fb-detail">
+                <label>Liên hệ quảng cáo:</label>
+                <p>Hotline: <a href="tel:0982501189" class="text-white">098.250.1189 </a>  - 0903995688</p>
+                <a href="#" target="_blank">
+                  <img src="img/edutimes.svg" alt="Edutimes" style="width: 150px;">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
