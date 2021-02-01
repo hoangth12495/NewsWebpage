@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -97,7 +100,7 @@
             <div class="bn-content">
               <div class="row">
                 <div class="col-md-8">
-                  <a href="/giao-duc/dao-tao-giao-vien-theo-mo-hinh-moi-gioi-nganh-a-thanh-thao-nganh-b-llMVsALGR.html" title="Đào tạo giáo viên theo mô hình mới: Giỏi ngành A, thành thạo ngành B" class="news-left">
+                  <a href="news-detail.html"  class="news-left">
                     <img src="https://images.giaoducthoidai.vn/thumb/540-340/public/ngandk/2021-02-01/a1-4-5-(3).jpg" alt="Đào tạo giáo viên theo mô hình mới: Giỏi ngành A, thành thạo ngành B">
                     <h3>Đào tạo giáo viên theo mô hình mới: Giỏi ngành A, thành thạo ngành B</h3>
                     <p>GD&amp;TĐ - Nằm trong lộ trình đổi mới căn bản, toàn diện GD-ĐT, đổi mới đào tạo giáo viên là một trong những yêu cầu quan trọng.</p>
@@ -162,7 +165,25 @@
                   </div>
                 </div>
               </div>
-              <div class="box-slide"></div>
+              <div class="box-slide">
+                <div class="swiper-container introduction">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide overflow-hidden text-center">
+                      <div class="swiper__item">
+                        <div class="swiper__img">
+                          <img src="img/congnghetaichinh.png" alt="Công nghệ tài chính">
+                        </div>
+                        <div class="swiper__info">
+                          <h4 class="swiper__title">Công nghệ tài chính</h4>
+                          <p class="swiper__desc">Đánh giá tín dụng xã hội bằng Bigdata</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+              </div>
+              </div>
             </div>
           </div>
         </div>
@@ -227,5 +248,28 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <script>
+      $(window).on('load', function() {
+        var swiper = new Swiper('.introduction', {
+            pagination: {
+              el: '.swiper-pagination',
+            },
+        });
+
+          /* notification view and hide */
+          // setTimeout(function() {
+          //     $('.notification').addClass('active');
+          //     setTimeout(function() {
+          //         $('.notification').removeClass('active');
+          //     }, 3500);
+          // }, 500);
+          // $('.closenotification').on('click', function() {
+          //     $(this).closest('.notification').removeClass('active')
+          // });
+      });
+    </script>
   </body>
 </html>
