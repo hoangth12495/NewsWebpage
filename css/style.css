@@ -441,6 +441,11 @@ ul.mt-tag li {
     margin-top: 15px;
 }
 
+.news-left p {
+    color: #707070;
+    font-size: 14px;
+}
+
 .timeago {
     display: block;
     font-size: 12px;
