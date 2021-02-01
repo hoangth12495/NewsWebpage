@@ -303,17 +303,17 @@ ul.mt-tag li {
     color: #c31e40;
 }
 
-.news-related .nr-img {
+.news-list .nr-img {
     max-width: 220px;
 }
 
-.news-related .nr-content h4 {
+.news-list .nr-content h4 {
     font-size: 18px;
     font-family: GoogleSans-Medium;
     line-height: 25px;
 }
 
-.news-related .nr-content p {
+.news-list .nr-content p {
     font-size: 14px;
     line-height: 18px;
     color: #707070;
@@ -483,6 +483,18 @@ ul.mt-tag li {
     cursor: pointer;
 }
 
+.list-menu li {
+    display: inline-block;
+}
+
+.list-menu li a {
+    font-size: 14px;
+    color: #363636;
+    margin: 0 22px;
+    text-transform: none;
+    line-height: 24px;
+    font-family: GoogleSans-Bold;
+}
 /*------------ footer -----------*/
 .footer-top {
     background: #a70728;
