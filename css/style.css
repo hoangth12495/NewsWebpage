@@ -611,3 +611,22 @@ ul.mt-tag li {
 .news-right .tab-content ul li a:hover {
     color: #707070;
 }
+
+.swiper__info {
+    padding-bottom: 40px;
+}
+
+.swiper__desc {
+    font: normal 14px GoogleSans-Medium;
+    color: #363636;
+    margin-top: 10px;
+}
+
+.swiper-pagination-bullet {
+    background: rgba(167,7,40);
+    opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+    background: #a70728;
+}
